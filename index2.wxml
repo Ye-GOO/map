@@ -1,0 +1,115 @@
+<!--pages/index2/index2.wxml-->
+
+<view class="container">
+<image class="main" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576756432642&di=af178070eb9269f75ebb1bd62ace63de&imgtype=0&src=http%3A%2F%2Fdpic.tiankong.com%2Fcw%2Fj6%2FQJ8904636295.jpg">
+</image>
+
+
+<image class="location"  src="../../images/定位.png"> </image>
+<view bindtap="aaa" class="t1">位置</view>
+
+<text class="temperature">温度</text>
+<image class="weather"  src="../../images/天气.png"> </image>
+<text class="t2">天气</text>
+
+<text class="atmosphere">优</text>
+<text class="atmosphere1">27</text>
+
+<text class="precipitation">降水</text>
+<text class="precipitation1">0.0mm</text>
+
+<text class="humidity">湿度</text>
+<text class="humidity1">76%</text>
+
+<text class="wind">北风</text>
+<text class="wind1">2级</text>
+
+<text class="pressure">气压</text>
+<text class="pressure1">1013hpa</text>
+</view>
+
+
+<view>
+<text bindtap="aaa" class="three">近三天</text>
+<text class="line1">—————————————————————</text>
+
+<text class="yesterday">昨天</text>
+<text class="yesweather">天气</text>
+<text class="yestemperature">温度</text>
+<image class="yespicture" src="../../images/太阳.png"></image> 
+
+<text class="line2">|</text>
+<text class="line3">|</text>
+<text class="line4">|</text>
+
+<text class="today">今天</text>
+<text class="toweather">天气</text>
+<text class="totemperature">温度</text>
+<image class="topicture" src="../../images/多云.png"></image>
+<text class="line5">|</text>
+<text class="line6">|</text>
+<text class="line7">|</text>
+
+
+<text class="tomorrow">明天</text>
+<text class="tomweather">天气</text>
+<text class="tomtemperature">温度</text>
+<image class="tompicture" src="../../images/下雨.png"></image>
+
+<text class="line8">—————————————————————</text>
+</view>
+
+<view>
+<text class="life">生活指数</text>
+<text class="line9">—————————————————————</text>
+<text class="car">洗车指数</text>
+<view bindtap="aaa" class="car1">不宜</view>
+<image class="car2" src="../../images/下一页.png"></image>
+<text class="line10">|</text>
+<text class="line11">|</text>
+<text class="line12">|</text>
+<text class="line13">|</text>
+<text class="line14">|</text>
+<text class="wear">穿衣指数</text>
+<view bindtap="aaa" class="wear1">热</view>
+<image class="wear2" src="../../images/下一页.png"></image>
+<text class="line15">|</text>
+<text class="line16">|</text>
+<text class="line17">|</text>
+<text class="line18">|</text>
+<text class="line19">|</text>
+<text class="line20">|</text>
+<text class="line21">|</text>
+<text class="line22">|</text>
+<text class="line23">|</text>
+<text class="line24">|</text>
+<text class="line25">|</text>
+<text class="line26">|</text>
+<text class="line27">|</text>
+<text class="line28">|</text>
+<text class="line29">|</text>
+<text class="line30">|</text>
+<text class="line31">|</text>
+<text class="ray">紫外线指数</text>
+<view bindtap="aaa" class="ray1">最弱</view>
+<image class="ray2" src="../../images/下一页.png"></image>
+<text class="line32">—————————————————————</text>
+<text class="line33">—————————————————————</text>
+<text class="fish">钓鱼指数</text>
+<view bindtap="aaa" class="fish1">较适宜</view>
+<image class="fish2" src="../../images/下一页.png"></image>
+<text class="comfortable">舒适度指数</text>
+<view bindtap="aaa" class="comfortable1">舒适</view>
+<image class="comfortable2" src="../../images/下一页.png"></image>
+<text class="sport">运动指数</text>
+<view bindtap="aaa" class="sport1">适宜</view>
+<image class="sport2" src="../../images/下一页.png"></image>
+<text class="cold">感冒指数</text>
+<view bindtap="aaa" class="cold1">较易发</view>
+<image class="cold2" src="../../images/下一页.png"></image>
+<text class="travel">旅游指数</text>
+<view bindtap="aaa" class="travel1">适宜</view>
+<image class="travel2" src="../../images/下一页.png"></image>
+<view bindtap="aaa" class="more">更多指数</view>
+<image class="more1" src="../../images/下一页.png"></image>
+</view>

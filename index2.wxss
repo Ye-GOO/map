@@ -1,0 +1,555 @@
+/* pages/index2/index2.wxss */
+.hover_class{
+  background-color: aqua;
+  opacity: .5;
+}
+.main{
+  width:100%;
+  height:360px;
+}
+
+.main{
+  position: relative;
+}
+.location{
+  position: absolute;
+  width:20px;
+  height: 20px;
+  margin-top:20px; 
+  margin-left: -140px;
+}
+
+.t1{
+  position: absolute;
+  margin-left: -105px;
+  font-size: 20px;
+  line-height: 60px;
+  color: white;
+}
+
+.temperature{
+  position: absolute;
+  margin-left: -100px;
+  line-height: 350px;
+  font-size: 40px;
+  color: white;
+}
+.weather{
+  position: absolute;
+  width:30px;
+  height: 30px;
+  display: float;
+  margin-top:210px; 
+  margin-left: -125px;
+}
+.t2{
+  position: absolute;
+  margin-left: -80px;
+  font-size: 20px;
+  line-height: 448px;
+  color:white;
+}
+.atmosphere{
+  position: absolute;
+  margin-left: -130px;
+  line-height: 505px;
+  font-size: 16px;
+  color: white;
+}
+.atmosphere1{
+  position: absolute;
+  width:30px;
+  height: 30px;
+  margin-top:242px; 
+  margin-left: -100px;
+  color:aquamarine;
+
+}
+
+.precipitation{
+  position: absolute;
+  margin-left: -115px;
+  font-size: 15px;
+  line-height: 600px;
+  color:white;
+}
+.precipitation1{
+  position: absolute;
+  margin-left: -115px;
+  font-size: 15px;
+  line-height: 645px;
+  color:white;
+}
+.humidity{
+  position: absolute;
+  margin-left: -25px;
+  font-size: 15px;
+  line-height: 600px;
+  color:white;
+}
+.humidity1{
+  position: absolute;
+  margin-left: -25px;
+  font-size: 15px;
+  line-height: 645px;
+  color:white;
+}
+.wind{
+  position: absolute;
+  margin-left: 50px;
+  font-size: 15px;
+  line-height: 600px;
+  color:white;
+
+}
+.wind1{
+  position: absolute;
+  margin-left: 50px;
+  font-size: 15px;
+  line-height: 645px;
+  color:white;
+
+}
+.pressure{
+   position: absolute;
+  margin-left: 120px;
+  font-size: 15px;
+  line-height: 600px;
+  color:white;
+}
+.pressure1{
+  position: absolute;
+  margin-left: 120px;
+  font-size: 15px;
+  line-height: 645px;
+  color:white;
+}
+
+.three{
+  position: absolute;
+  margin-top:30px; 
+}
+
+.line1{
+  position: absolute;
+  margin-top:50px;
+  color:#7722;
+}
+.yesterday{
+  position: absolute;
+  margin-top:80px; 
+  margin-left: 10px;
+}
+.yesweather{
+  position: absolute;
+  margin-top:110px; 
+  margin-left: 10px;
+}
+.yestemperature{
+  position: absolute;
+  margin-top:80px; 
+  margin-left: 60px;
+}
+.yespicture{
+  position: absolute;
+  margin-top:110px; 
+  margin-left: 75px;
+  width:20px;
+  height: 20px;
+
+}
+.line2{
+  position: absolute;
+  margin-top:72px; 
+  margin-left: 100px;
+  color:#7722;
+}
+.line3{
+  position: absolute;
+  margin-top:89px; 
+  margin-left: 100px;
+  color:#7722;
+}.line4{
+  position: absolute;
+  margin-top:106px; 
+  margin-left: 100px;
+  color:#7722;
+}
+
+.today{
+  position: absolute;
+  margin-top:80px; 
+  margin-left: 120px;
+}
+.toweather{
+  position: absolute;
+  margin-top:110px; 
+  margin-left: 120px;
+}
+.totemperature{
+  position: absolute;
+  margin-top:80px; 
+  margin-left: 170px;
+}
+.topicture{
+  position: absolute;
+  margin-top:110px; 
+  margin-left: 180px;
+  width: 20px;
+  height: 20px;
+}
+.line5{
+  position: absolute;
+  margin-top:72px; 
+  margin-left: 210px;
+  color:#7722;
+}
+.line6{
+  position: absolute;
+  margin-top:89px; 
+  margin-left: 210px;
+  color:#7722;
+}.line7{
+  position: absolute;
+  margin-top:106px; 
+  margin-left: 210px;
+  color:#7722;
+}
+
+.tomorrow{
+  position: absolute;
+  margin-top:80px; 
+  margin-left: 230px;
+
+}
+.tomweather{
+  position: absolute;
+  margin-top:110px; 
+  margin-left: 230px;
+}
+.tomtemperature{
+  position: absolute;
+  margin-top:80px; 
+  margin-left: 280px;
+}
+.tompicture{
+  position: absolute;
+  margin-top:115px; 
+  margin-left: 290px;
+  width: 15px;
+  height: 15px;
+}
+.line8{
+  position: absolute;
+  margin-top:140px;
+  color:#7722;
+}
+.blue{
+  position: relative;
+  margin-top: 150px;
+}
+.life{
+  position: absolute;
+  margin-top:190px; 
+  margin-left: 10px;
+  
+}
+.line9{
+  position: absolute;
+  margin-top:210px; 
+  color:#7722;
+}
+.car{
+  position: absolute;
+  margin-top:240px; 
+  margin-left: 20px;
+}
+.car1{
+  position: absolute;
+  margin-top:260px; 
+  margin-left: 30px;
+}
+.car2{
+  position: absolute;
+  margin-top:265px; 
+  margin-left: 65px;
+  width:15px;
+  height: 15px;
+}
+.line10{
+  position: absolute;
+  margin-top:220px; 
+  margin-left: 105px;
+  color:#7722;
+}
+.line11{
+  position: absolute;
+  margin-top:240px; 
+  margin-left: 105px;
+  color:#7722;
+}
+.line12{
+  position: absolute;
+  margin-top:260px; 
+  margin-left: 105px;
+  color:#7722;
+}
+.line13{
+  position: absolute;
+  margin-top:280px; 
+  margin-left: 105px;
+  color:#7722;
+}
+.line14{
+  position: absolute;
+  margin-top:300px; 
+  margin-left: 105px;
+  color:#7722;
+}
+.line15{
+  position: absolute;
+  margin-top:320px; 
+  margin-left: 105px;
+  color:#7722;
+}
+.line16{
+  position: absolute;
+  margin-top:340px; 
+  margin-left: 105px;
+  color:#7722;
+}
+.line17{
+  position: absolute;
+  margin-top:360px; 
+  margin-left: 105px;
+  color:#7722;
+}
+.line18{
+  position: absolute;
+  margin-top:380px; 
+  margin-left: 105px;
+  color:#7722;
+}
+.line19{
+  position: absolute;
+  margin-top:400px; 
+  margin-left: 105px;
+  color:#7722;
+}
+.line20{
+  position: absolute;
+  margin-top:420px; 
+ margin-left: 105px;
+  color:#7722;
+}
+.wear{
+  position: absolute;
+  margin-top:240px; 
+  margin-left: 125px;
+}
+.wear1{
+  position: absolute;
+  margin-top:261px; 
+  margin-left: 145px;
+}
+.wear2{
+  position: absolute;
+  margin-top:265px; 
+  margin-left: 165px;
+  width:15px;
+  height: 15px;
+}
+.line21{
+  position: absolute;
+  margin-top:220px; 
+  margin-left: 210px;
+  color:#7722;
+}
+.line22{
+  position: absolute;
+  margin-top:240px; 
+  margin-left: 210px;
+  color:#7722;
+}
+.line23{
+  position: absolute;
+  margin-top:260px; 
+  margin-left: 210px;
+  color:#7722;
+}
+.line24{
+  position: absolute;
+  margin-top:280px; 
+  margin-left: 210px;
+  color:#7722;
+}
+.line25{
+  position: absolute;
+  margin-top:300px; 
+  margin-left: 210px;
+  color:#7722;
+}
+.line26{
+  position: absolute;
+  margin-top:320px; 
+  margin-left: 210px;
+  color:#7722;
+}
+.line27{
+  position: absolute;
+  margin-top:340px; 
+  margin-left: 210px;
+  color:#7722;
+}
+.line28{
+  position: absolute;
+  margin-top:360px; 
+  margin-left: 210px;
+  color:#7722;
+}
+.line29{
+  position: absolute;
+  margin-top:380px; 
+  margin-left: 210px;
+  color:#7722;
+}
+.line30{
+  position: absolute;
+  margin-top:400px; 
+  margin-left: 210px;
+  color:#7722;
+}
+.line31{
+  position: absolute;
+  margin-top:420px; 
+  margin-left: 210px;
+  color:#7722;
+}
+.ray{
+  position: absolute;
+  margin-top:240px; 
+  margin-left: 230px;
+}
+.ray1{
+  position: absolute;
+  margin-top:260px; 
+  margin-left: 244px;
+  
+}
+.ray2{
+  position: absolute;
+  margin-top:265px; 
+  margin-left: 277px;
+  width:15px;
+  height: 15px;
+}
+.line32{
+  position: absolute;
+  margin-top:285px; 
+  color:#7722;
+}
+.line33{
+  position: absolute;
+  margin-top:360px; 
+  color:#7722;
+}
+
+.fish{
+  position: absolute;
+  margin-top:310px; 
+  margin-left: 20px;
+}
+.fish1{
+  position: absolute;
+  margin-top:330px; 
+  margin-left: 25px;
+}
+.fish2{
+  position: absolute;
+  margin-top:333px; 
+  margin-left: 73px;
+  width:15px;
+  height: 15px;
+}
+.comfortable{
+  position: absolute;
+  margin-top:310px; 
+  margin-left: 121px;
+}
+.comfortable1{
+  position: absolute;
+  margin-top:330px; 
+  margin-left: 145px;
+}
+.comfortable2{
+  position: absolute;
+  margin-top:335px; 
+  margin-left: 178px;
+  width:15px;
+  height: 15px;
+}
+.sport{
+  position: absolute;
+  margin-top:310px; 
+  margin-left: 235px;
+}
+.sport1{
+  position: absolute;
+  margin-top:330px; 
+  margin-left: 250px;
+  
+}
+.sport2{
+  position: absolute;
+  margin-top:335px; 
+  margin-left: 284px;
+  width:15px;
+  height: 15px;
+}
+
+.cold{
+  position: absolute;
+  margin-top:388px; 
+  margin-left: 20px;
+}
+.cold1{
+  position: absolute;
+  margin-top:408px; 
+  margin-left: 25px;
+}
+.cold2{
+  position: absolute;
+  margin-top:413px; 
+  margin-left: 73px;
+  width:15px;
+  height: 15px;
+}
+.travel{
+  position: absolute;
+  margin-top:388px; 
+  margin-left: 130px;
+}
+.travel1{
+  position: absolute;
+  margin-top:408px; 
+  margin-left: 142px;
+}
+.travel2{
+  position: absolute;
+  margin-top:413px; 
+  margin-left: 178px;
+  width:15px;
+  height: 15px;
+}
+.more{
+  position: absolute;
+  margin-top:390px; 
+  margin-left: 230px;
+}
+.more1{
+  position: absolute;
+  margin-top:415px; 
+  margin-left: 255px;
+  width:15px;
+  height: 15px;
+}
